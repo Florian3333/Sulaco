@@ -31,7 +31,7 @@ def write_data(file,data):
 
 def remove_item(list,idx):
     if idx in range(len(list)):
-        return list.pop(idx)   # [1] pourquoi retourner et utiliser la 2eme valeur de la liste supprimee ?
+        return list.pop(idx)  
     else:
         print('You selected non existing item.')
 
