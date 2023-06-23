@@ -244,7 +244,7 @@ def create_budget_month():
     # Recording of the xml document in a file
     with open(str(budget_month) + str(current_date) + ".xml", "w", encoding="utf-8") as file:    
         doc.writexml(file, indent="\t")
-    print("Fichier XML créé avec succès.")
+    print("Fichier XML créé avec succès.") 
 
 
 
